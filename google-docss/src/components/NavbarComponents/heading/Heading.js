@@ -9,15 +9,7 @@ function Heading() {
   const handleText = (value) => {
     setText(value);
     document.execCommand("formatBlock", false, value);
-    //     const selection = window.getSelection();
-    //   if (selection.rangeCount > 0) {
-    //     const range = selection.getRangeAt(0);
-    //     const selectedText = range.toString();
-    //     const span = document.createElement("span");
-    //     span.innerHTML = selectedText;
-    //     range.deleteContents();
-    //     range.insertNode(span);
-    //     document.execCommand("formatBlock", false, value);
+   
   };
 
   return (
@@ -27,7 +19,7 @@ function Heading() {
           <option value="">{text}</option>
           {headingList.map((x, i) => (
             <option value={x.value} key={i}>
-              {x.icon}
+              {x.value}
             </option>
           ))}
         </select>

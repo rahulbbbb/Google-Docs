@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 
 function FontSize() {
-    let [fontSize, setFonstSize] = useState(3)
+    let [fontSize, setFonstSize] = useState(5)
     const fontSizeList = [1, 2, 3, 4, 5, 6, 7];
     const handleFontSize = (e) => {
         setFonstSize(e.target.value);

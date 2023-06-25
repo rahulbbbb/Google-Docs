@@ -19,15 +19,10 @@
     padding: 0.5rem;
 }
 
-.menuBar h1 {
-    margin-top: 4px;
-    cursor: pointer;
-}
-
 .menuBarContent {
     display: flex;
     flex-direction: column;
-    margin-left: 0.5rem;
+    margin-left: 0.8rem;
 }
 
 .menuBarContentTop {
@@ -38,6 +33,7 @@
 
 .menuBarContentTop input {
     border: none;
+    letter-spacing:0.5px;
     font-size: 1.2rem;
     width: 11rem;
     padding: 2px;
@@ -45,149 +41,31 @@
     background-color: transparent;
 }
 
-.menuBarContentTop p {
-    margin-top: 4px;
-    height: 1.5rem;
-    width: 1.5rem;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.menuBarContentTop p:hover {
-    background-color: rgb(216, 215, 215);
-}
-
-.menuBarContentBottom {
+.menuBarContentBottom{
     margin-top: 0.3rem;
     display: flex;
     align-items: center;
     gap: 0.2rem;
 }
 
-.menuBarContentBottomP {
+.menuBarContentBottom h5 {
     cursor: pointer;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    border-radius: 5px;
+    font-weight:500;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    
 }
 
-.menuBarContentBottomP:hover {
-    background-color: rgb(216, 215, 215);
-}
 
-.menuBarSideOptions {
-    display: flex;
-    align-items: center;
-}
+ 
 
-.menuBarSideOptions {
-    display: flex;
-    align-items: center;
-    padding: 0.5rem;
-    gap: 1.5rem;
-}
-
-.menuBarSideOptions p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 2.5rem;
-    width: 2.5rem;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.menuBarSideOptions p:hover {
-    background-color: rgb(216, 215, 215);
-
-}
-
-.menuBarSideOptions button {
-    border: none;
-    width: 6.5rem;
-    height: 2.5rem;
-    border-radius: 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    background-color: rgb(181, 223, 240);
-    cursor: pointer;
-}
-
-.menuBarSideOptions button:hover {
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-}
-
-.shareBtn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-}
-
-.shareIcon {
-    display: none
-}
-
-@media screen and (max-width: 768px) {
-
-    .help {
-        display: none;
-    }
-
-    .extension {
-        display: none;
-    }
-}
 
 
 @media screen and (max-width: 610px) {
     .menuBarContainer{
         flex-direction: column;
         height: auto;
-    }
-    .format {
-        display: none;
-    }
-
-    .menuBarSideOptions {
-        margin-left: 2rem;
-    }
-
-    .menuBarSideOptions button {
-        width: 4.5rem;
-    }
-
-    .shareBtn {
-        display: none
-    }
-
-    .shareIcon {
-        display: block
-    }
-}
-
-@media screen and (max-width: 420px) {
-    .insert {
-        display: none;
-    }
-
-}
-
-@media screen and (max-width: 320px) {
-    .file {
-        display: none;
-    }
-
-    .edit {
-        display: none;
-    }
-
-    .view {
-        display: none;
     }
 }
