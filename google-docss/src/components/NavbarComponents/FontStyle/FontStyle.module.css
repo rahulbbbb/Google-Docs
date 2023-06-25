@@ -1,0 +1,23 @@
+.fontStyleBox{
+   
+    margin:0.2rem;
+    
+ display: flex;
+ gap:0.1rem;
+   
+
+}
+
+.fontStyle{
+    width:100%;
+    padding: 0.2rem;
+    margin:0.2rem;
+   
+   
+}
+
+/* .fontStyle:hover {
+    /* background-color: rgba(0,0,0,.2); */
+
+
+
