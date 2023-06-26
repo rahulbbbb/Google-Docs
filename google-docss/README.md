@@ -17,5 +17,10 @@ It mimics the popular features of Google Docs, such as document creation, format
 
 ## Some Glimpses
 
+![Screenshot 2023-06-26 201317](https://github.com/rahulbbbb/Google-Docs/assets/124687528/35136f3b-4a34-4054-a5ce-6352ed206d9e)
+
+![Screenshot 2023-06-26 201535](https://github.com/rahulbbbb/Google-Docs/assets/124687528/342e1df2-0dbc-4c86-a735-23b0c60a2dae)
+
+![Screenshot 2023-06-26 201809](https://github.com/rahulbbbb/Google-Docs/assets/124687528/e2e6bdb2-921c-4567-88f7-f9c6fb616afc)
 
 
